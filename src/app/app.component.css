@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: gold;
+    padding: 24px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: gold;
+    padding: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;  
+    text-shadow: 0 0 4px blanchedalmond;
+}
+
+.problem {
+    color: red;
+}
+
+.patientInput {
+    float: left;
+    width: 40%;
+    height: 600px;
+    background-color: slateblue;
+    color: white;
+}
+
+.patientInputForm {
+    border: 1px solid green;
+    margin: 10px 28px;
+    padding: 4px 0;
+}
+
+.labelInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 120px;
+}
+
+.label {
+    color: orange;
+    font-style: italic;
+    text-shadow: 0 0 2px green, 2px 2px 0 black, 0 2px 0 grey;
+}
+
+.input {
+    font-style: italic  ;
+    border-radius: 0 0 20% 0;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: .02rem solid black;
+}
+
+.selectOpt {
+   padding-right: 70px;
+   background: none;
+   color: white;
+}
+
+.selectOpt:hover,
+.input:hover {
+    background-color: black;
+}
+
+.patientOutput {
+    float: left;
+    width:60%;
+    height: 600px;
+    background-color: powderblue;    
+}
+
+.outputTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.outputTable table {
+    width: 100%;
+}
+
+.actionBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px 10px;
+}
+
+.btn {
+    color: red;
+    background-color: black;
+    text-shadow: 0 1px 0 red;
+    box-shadow: 0 1px 0 maroon, 0 0 2px maroon;
+}
+
+.btn:hover {
+    color: black;
+    background: red;
+    text-shadow: 0 1px 0 black;
+}
+
+.patientProblems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 2px 8px;
+    text-align: center;
+}
+
+/* .actionB {
+    
+} */
