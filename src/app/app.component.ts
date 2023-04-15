@@ -25,7 +25,10 @@ export class AppComponent {
   }
   
   deleteProblem(index:number) {
-    this.patientObj.problems.splice(index,1);
+    let deleteAlert = confirm("Are you sure you want to delete");
+    if(deleteAlert == true) {
+      this.patientObj.problems.splice(index,1);
+    }
   }
 
   resetRecord() {

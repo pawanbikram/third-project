@@ -92,6 +92,12 @@ footer {
     padding: 0 20px;
 }
 
+.mainContainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .outputTable table {
     width: 100%;
 }
@@ -133,6 +139,9 @@ td {
     text-align: center;
 }
 
-/* .actionB {
-    
-} */
+@media (max-width:600px) {
+    .patientInput, .patientOutput {
+        width: 100%;
+        height: auto;
+    }   
+}
